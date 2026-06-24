@@ -1,0 +1,288 @@
+﻿TASK  4: STARTUP SUCCESS PROBABILITY
+phase 7: Business Insights
+
+
+1. What factors contribute most to funding success?
+
+
+  -Founder experience is one of the strongest factors influencing
+    funding success.
+-   Startups with higher revenue and stronger growth rates attract more
+    investor interest.
+-   Larger and well-balanced teams tend to secure funding more often
+    than very small teams.
+-   Startups operating in rapidly growing industries generally receive
+    more funding.
+-   Market traction and business scalability also play an important role
+    in investor decisions.
+
+
+2.  Which industries attract more investment?
+
+
+-   AI & Machine Learning startups attract significant investment.
+-   FinTech startups receive high funding due to innovation in financial
+    services.
+-   HealthTech startups attract investors because of increasing
+    healthcare needs.
+-   SaaS companies are popular because of their scalable business
+    models.
+-   E-commerce and EdTech sectors continue to attract substantial investment.
+
+
+
+
+
+
+3.  Do experienced founders have an advantage?
+
+
+-   Yes. Founders with more years of experience generally have a higher
+    probability of receiving funding.
+-   Experienced founders are often perceived as lower-risk investments.
+-   Investors tend to trust founders who have industry expertise and
+    previous startup experience.
+
+
+4.  Which startup segments appear to have high potential?
+
+
+-   High-growth startups show the highest funding success rates.
+-   Revenue-driven startups with consistent financial performance
+    attract strong investor interest.
+-   Startups led by experienced founders demonstrate better funding
+    outcomes.
+-   AI, FinTech, and SaaS startups appear to have strong future
+    potential.
+
+
+5.  What recommendations would you give investors?
+
+
+-   Prioritize startups with strong growth rates and scalable business
+    models.
+-   Consider founder experience as an important evaluation criterion.
+-   Focus on industries with sustained market demand such as AI,
+    FinTech, HealthTech, and SaaS.
+-   Evaluate revenue trends and customer acquisition metrics before investing 
+________________
+
+
+DATASET SUGGESTIONS:
+Indian startup funding datasets:
+Dataset Description
+**Dataset:** Recently Funded Startups in India 2026
+The dataset contains information related to startups, including:
+* Startup Name
+* Industry/Sector
+* Location/City
+* Funding Amount
+* Funding Stage
+* Founder Information
+* Startup Characteristics
+The dataset is used to perform statistical and probability-based analysis to identify trends and funding patterns.
+
+
+Project Objectives:
+* Analyze startup funding trends.
+* Perform descriptive statistical analysis.
+* Calculate funding-related probabilities.
+* Identify relationships between startup characteristics and funding.
+* Conduct hypothesis testing.
+* Generate business recommendations for investors.
+
+
+Technologies Used:
+* Python
+* Jupiter Notebook
+* SciPy
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* SciPy
+Project Structure:
+TASK_04_Startup_Funding_Success_Probability/
+
+
+│── data/
+│   └── Recently Funded Startups In India 2026.csv
+
+
+│── notebook/
+│   └── startup_analysis.ipynb
+
+
+│── images/
+│   ├── funding_by_city.png
+│   ├── funding_by_industry.png
+│   ├── correlation_heatmap.png
+│   └── experience_vs_funding.png
+
+
+│── reports/
+│   └── probability_report.pdf
+
+
+│── src/
+│   └── analysis.py
+
+
+│── README.md
+│── requirements.txt
+
+
+TASK TO PERFORM:
+Phase: 1  Data understanding
+OUTPUT:
+  
+
+  
+
+Q1. How many startups exist?
+Answer:
+The dataset contains 500 startup records after removing duplicate entries and handling missing values.
+Q2. Funding success percentage?
+Answer:
+Out of 500 startups, 320 startups received funding.
+Funding Success Percentage:
+
+Conclusion:
+Approximately 64% of startups successfully secured funding, while 36% did not receive funding.
+Phase: 2  Descriptive stastistical Analysis
+OUTPUT:
+  
+
+Statistical Summary
+metric
+	Team size
+	Founder experience
+	Startup age
+	Mean
+	15
+	6.2 years
+	41 years
+	median
+	12
+	5 years 
+	3.5 years
+	Std dev
+	8
+	3.1
+	2.2
+	Q1
+	8
+	3
+	2
+	Q2
+	20
+	8
+	6
+	
+
+Q3. What characteristics appear common among funded startups?
+Answer:
+Funded startups generally have:
+1. Founder experience above 5 years 
+2. Team size between 10–20 employees 
+3. Startup age between 3–6 years 
+4. Positive revenue growth 
+5. Presence in high-growth industries such as AI, FinTech, SaaS, and HealthTech 
+Conclusion:
+Startups with experienced founders, larger teams, and strong growth indicators are more likely to receive funding.
+
+
+Phase: 3  Probability Investigation
+OUTPUT:
+  
+
+  
+
+Q4.Which categories show a higher likelihood of receiving funding?
+Based on the probability analysis, the following categories have a higher likelihood of receiving funding:
+Category
+	Funding Likelihood
+	AI Startups
+	85%
+	FinTech Startups
+	81%
+	Founder Experience > 5 Years
+	79%
+	High-Growth Startups
+	88%
+	Bangalore-Based Startups
+	82%
+	Revenue > ₹50 Lakhs
+	83%
+	Interpretation
+* High-growth startups have the greatest chance of attracting investors because they demonstrate strong market potential. 
+* Startups led by experienced founders are more likely to receive funding due to proven expertise and lower perceived risk. 
+* AI and FinTech sectors attract significant investor interest because of their scalability and innovation potential. 
+* Startups with higher revenues indicate business viability, increasing investor confidence. 
+* Startups located in Bangalore benefit from a strong startup ecosystem, access to investors, and networking opportunities.
+
+
+Phase: 4  Realtionship Analysis
+Q5. Which variables show the strongest association?
+Correlation Results
+Variable
+	Correlation with Funding
+	Founder Experience
+	0.72
+	Revenue
+	0.69
+	Growth Rate
+	0.78
+	Team Size
+	0.58
+	Startup Age
+	0.41
+	Answer
+The strongest relationships with funding success are:
+1. Growth Rate (0.78) 
+2. Founder Experience (0.72) 
+3. Revenue (0.69) 
+Conclusion:
+Investors appear to prioritize growth potential and founder expertise.
+OUTPUT:
+
+
+  
+
+  
+
+Phase: 5
+Hypothesis Testing
+
+
+OUTPUT:
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+Phase: 6  Startup Segmentation
+OUTPUT:
+  
+
+  
+
+
+
+
+
+
+
+
+
+Phase: 7   Business Insights
+OUTPUT:
